@@ -1,4 +1,37 @@
-/* Add this CSS code to your style.css file */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+.navbar {
+    background-color: #007bff;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #ddd;
+    color: #333;
+}
+
 
 body {
     background-color: #f0f0f0; /* Set background color to light gray */
@@ -47,6 +80,57 @@ a:hover {
     text-decoration: underline; /* Underline link on hover */
 }
 
+
+/* Add this CSS code to your style.css file */
+
+body {
+    background-color: #f0f0f0; /* Set background color to light gray */
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Set form background color to white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-container select,
+.form-container input[type="text"],
+.form-container input[type="date"],
+.form-container input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.form-container input[type="submit"] {
+    background-color: #007bff; /* Set button background color to blue */
+    color: #fff; /* Set button text color to white */
+    cursor: pointer;
+}
+
+.form-container input[type="submit"]:hover {
+    background-color: #0056b3; /* Set button background color to darker blue on hover */
+}
+
+.form-container a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #007bff; /* Set link color to blue */
+    text-decoration: none;
+}
+
+.form-container a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+
 /* Add this CSS code to your style.css file */
 
 table {
@@ -85,4 +169,29 @@ a.edit, a.delete {
 
 a.edit:hover, a.delete:hover {
     text-decoration: underline; /* Underline link on hover */
+}
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    min-height: 80vh; /* Set minimum height for the main content */
+}
+
+.footerweb {
+    background-color: #007bff; /* Set background color to dark gray */
+    color: #fff; /* Set text color to white */
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerweb p {
+    margin: 0;
 }

@@ -36,16 +36,16 @@ if ($result->num_rows > 0) {
 <head>
     <meta charset="UTF-8">
     <title>Edit Data Peminjaman</title>
-    <link rel="stylesheet" href="style.css">
+            <link rel="stylesheet" href="style.css">
 
 </head>
 <body>
     <a href="peminjaman.php">Kembali</a>
     <form action="updatepeminjaman.php?id=<?php echo $id; ?>" method="POST">
-        kamera_id: <input type="text" name="kamera_id" value="<?php echo $row['kamera_id']; ?>"><br>
-        anggota_id: <input type="text" name="anggota_id" value="<?php echo $row['anggota_id']; ?>"><br>
+        Kamera id: <input type="text" name="kamera_id" value="<?php echo $row['kamera_id']; ?>"><br>
+        Anggota id: <input type="text" name="anggota_id" value="<?php echo $row['anggota_id']; ?>"><br>
         Tanggal Peminjaman: <input type="date" name="tanggal_peminjaman" value="<?php echo $row['tanggal_peminjaman']; ?>"><br>
-        tanggal_kembali: <input type="date" name="tanggal_kembali" value="<?php echo $row['tanggal_kembali']; ?>"><br>
+        Tanggal kembali: <input type="date" name="tanggal_kembali" value="<?php echo $row['tanggal_kembali']; ?>"><br>
         keterangan: 
         <select name="keterangan">
             <option value="dipinjam" <?php if ($row['keterangan'] == 'dipinjam') echo 'selected'; ?>>Dipinjam</option>

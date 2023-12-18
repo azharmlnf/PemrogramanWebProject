@@ -15,7 +15,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 ?>
 <a href="kategori.php">Kembali</a>
 <form action="tambahkategori.php" method="POST">
- Nama Kategori: <input type="text" name="nama_kategori"><br>
+ Nama Kategori: <input type="text" name="nama_kategori"required><br>
  
  <input type="submit" value="Tambah">
 </form>
