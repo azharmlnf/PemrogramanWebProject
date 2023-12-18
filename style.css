@@ -1,0 +1,88 @@
+/* Add this CSS code to your style.css file */
+
+body {
+    background-color: #f0f0f0; /* Set background color to light gray */
+    font-family: Arial, sans-serif;
+}
+
+form {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* Set form background color to white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+select,
+input[type="text"],
+input[type="date"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #007bff; /* Set button background color to blue */
+    color: #fff; /* Set button text color to white */
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Set button background color to darker blue on hover */
+}
+
+a {
+    display: inline-block;
+    margin: 10px 0;
+    color: #007bff; /* Set link color to blue */
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
+
+/* Add this CSS code to your style.css file */
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #007bff; /* Set border color to blue */
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff; /* Set header background color to blue */
+    color: #fff; /* Set header text color to white */
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2; /* Set even row background color to light gray */
+}
+
+tr:hover {
+    background-color: #e0e0e0; /* Set row background color on hover */
+}
+
+a.edit, a.delete {
+    color: #007bff; /* Set link color to blue */
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a.edit:hover, a.delete:hover {
+    text-decoration: underline; /* Underline link on hover */
+}
